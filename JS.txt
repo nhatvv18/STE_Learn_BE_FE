@@ -1,0 +1,16 @@
+-let : sử dụng biến let trước khi khai báo thì sẽ gặp lỗi
+-const : không thể tái khai báo hay cập nhật giá trị mới
+-filter : dùng để check điều kiện mảng
+-forEach : gọi hàm 
+-map : tạo một mảng mới từ việc gọi hàm
+-reduce : trả về 1 giá trị của hàm
+
+-promise == exception ???
+-deep copy let b = a --> a = b
+-Spread operator let b = {...a} --> a != b
+-Object.assign let b = Object.assign({}, a) --> a != b
+-Cạm bẫy: Object lồng nhau let b = {...a}                --> a == b
+			   b.languages.vi = 'Chao xìn'
+			
+			   let b = JSON.parse(JSON.stringify(a))
+			   b.languages.vi = 'Chao xìn'   --> a != b
